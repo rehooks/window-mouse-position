@@ -1,0 +1,6 @@
+interface WindowMousePosition {
+  x: number,
+  y: number
+}
+
+declare export default function useWindowMousePosition(): WindowMousePosition;
