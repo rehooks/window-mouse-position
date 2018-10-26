@@ -2,7 +2,10 @@
 let { useState, useEffect } = require("react");
 
 function useWindowMousePosition() {
-  let [WindowMousePosition, setWindowMousePosition] = useState({ x: 0, y: 0 });
+  let [WindowMousePosition, setWindowMousePosition] = useState({
+    x: null,
+    y: null
+  });
 
   function handleMouseMove(e) {
     setWindowMousePosition({

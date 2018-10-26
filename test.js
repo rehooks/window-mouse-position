@@ -19,6 +19,6 @@ test(t => {
 
   let div = render(h(Component));
 
-  t.is(div.toJSON().props["data-x"], 0);
-  t.is(div.toJSON().props["data-x"], 0);
+  t.is(div.toJSON().props["data-x"], null);
+  t.is(div.toJSON().props["data-x"], null);
 });
