@@ -12,7 +12,9 @@
   "keywords": [
     "react",
     "hooks",
-    "..."
+    "mouse",
+    "position",
+    "window"
   ],
   "files": [
     "index.*"
