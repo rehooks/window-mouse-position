@@ -20,7 +20,7 @@ function useWindowMousePosition() {
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
     };
-  });
+  }, []);
 
   return WindowMousePosition;
 }
